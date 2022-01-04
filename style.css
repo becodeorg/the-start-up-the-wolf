@@ -1,2 +1,74 @@
-ECHO is on.
-css ahmad 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+   
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: black;
+
+}
+.nav{
+    flex: 1;
+    text-align: right;
+    
+}
+.nav ul{
+    display: inline-block;
+    list-style: none;
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+.nav-background{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./images/architecture-1868667_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 4s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animate{
+    0%{
+        background-image: url(./images/singapore-2393073_1920.jpg);
+    }
+     20%{
+        background-image: url(./images/drink-84533_1920.jpg);
+    }
+     40%{
+        background-image: url(./images/bora-bora-3023437_1920.jpg);
+    }
+     60%{
+        background-image: url(./images/beach-1236581_1920.jpg);
+    }
+     80%{
+        background-image: url(./images/tree-736885.jpg);
+    }
+     100%{
+        background-image: url(./images/bora-bora-3023437_1920.jpg);
+    }
+    
+}
