@@ -16,6 +16,7 @@
   animation-name: animate;
   animation-duration: 30s;
   animation-iteration-count: infinite;
+  
 }
 @keyframes animate {
   0% {
@@ -156,6 +157,7 @@
   background-color:  rgb(22, 189, 245);
   color: black;
   font-weight: bold;
+  border-radius: 8px 8px 0 0 ;
 }
 .col a:hover{
   background-color: black;
