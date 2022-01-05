@@ -1,75 +1,163 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-.container{
-    max-width: 1300px;
-    margin: auto;
-   
+.container {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 5s;
+  animation-name: animate;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
 }
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 10px 30px;
-    background-color: black;
-
-}
-.nav{
-    flex: 1;
-    text-align: right;
+@keyframes animate {
+  0% {
+    background-image: url(./images/4.jpg);
     
+  }
+  10% {
+    background-image: url(./images/1.jpg);
+  }
+  20% {
+    background-image: url(./images/2.jpg);
+  }
+  30% {
+    background-image: url(./images/3.jpg);
+  }
+  40% {
+    background-image: url(./images/4.jpg);
+  }
+  60% {
+    background-image: url(./images/5.jpg);
+  }
+  70% {
+    background-image: url(./images/6.jpg);
+  }
+  80% {
+    background-image: url(./images/7.jpg);
+  }
+  90% {
+    background-image: url(./images/8.jpg);
+  }
+  100% {
+    background-image: url(./images/9.jpg);
+  }
 }
-.nav ul{
-    display: inline-block;
-    list-style: none;
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
 }
-.nav ul li{
-    display: inline-block;
-    margin-right: 20px;
+.nav {
+  flex: 1;
+  margin: auto;
+  text-align: right;
 }
-a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+.nav ul {
+  display: inline-block;
+  list-style: none;
+}
+.nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.nav ul li a:hover{
+  color: rgb(47, 189, 12);
+}
+.Backg-desc {
+  margin-left: 20px;
+  width: 40%;
+  padding: 30px;
+  background-color: rgb(157, 158, 156);
+  opacity: 0.6;
+}
+.Backg-desc h1 {
+  font-size: 40px;
+}
+.Backg-desc p {
+  padding: 30px 0px;
+  font-size: 20px;
+}
+.Backg-desc a {
+  margin-top: 20px;
+  padding: 12px 25px;
+  text-decoration: none;
+  background-color: rgb(22, 189, 245);
+  border-radius: 20px;
+}
+.Backg-desc a:hover{
+  background-color: black;
+  color:  rgb(47, 189, 12);
+}
+.type-travel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 40px;
+}
+.type-travel-col {
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+.type-travel-col a {
+  text-decoration: none;
+  font-weight: bold;
 
 }
-.nav-background{
-    text-align: center;
-    width: 100%;
-    height: 80vh;
-    background-image: url(./images/architecture-1868667_1920.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 4s;
-
-    animation-name: animate;
-    animation-direction: alternate-reverse;
-    animation-duration: 20s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-timing-function: ease-in-out;
+.type-travel-col a:hover{
+  color: rgb(47, 189, 12);
 }
-@keyframes animate{
-    0%{
-        background-image: url(./images/singapore-2393073_1920.jpg);
-    }
-     20%{
-        background-image: url(./images/drink-84533_1920.jpg);
-    }
-     40%{
-        background-image: url(./images/bora-bora-3023437_1920.jpg);
-    }
-     60%{
-        background-image: url(./images/beach-1236581_1920.jpg);
-    }
-     80%{
-        background-image: url(./images/tree-736885.jpg);
-    }
-     100%{
-        background-image: url(./images/bora-bora-3023437_1920.jpg);
-    }
-    
+.travelers{
+      text-align: center;
+}
+.travelers h1{
+  padding: 50px;
+}
+.container1{
+  max-width: 100%;
+  margin: 0 40px;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.col{
+  flex-basis: 20%;
+  min-width: 200px;
+  margin: 0 20px;
+  border: 1px solid gray;
+  background: rgb(240, 238, 238);
+  padding-bottom: 10px;
+}
+.col img{
+  width: 100%;
+}
+.col p{
+  padding: 15px;
+}
+.col a{
+  text-decoration: none;
+  padding: 6px 20px;
+  background-color:  rgb(22, 189, 245);
+  color: black;
+  font-weight: bold;
+}
+.col a:hover{
+  background-color: black;
+   color: rgb(47, 189, 12);
 }
