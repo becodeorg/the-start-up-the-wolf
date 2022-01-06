@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <title>The wolf project</title>
   </head>
@@ -29,7 +32,7 @@
         <div class="nav-background">
           <div class="Backg-desc">
             <h1>Discover The world <br />Make your dream vacation</h1>
-            <p>
+            <p class="nav_text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus provident exercitationem consequatur eius assumenda
               <br />
@@ -100,8 +103,9 @@
           <div class="col">
             <img src="./images/womans-legs-887286_640.jpg" alt="" />
             <p>
-              Last year <br> Met allemaal tegelijk naar de foto kijken is soms nog
-              wat moeilijk, maar de rest lukt wel...
+              Last year <br />
+              Met allemaal tegelijk naar de foto kijken is soms nog wat
+              moeilijk, maar de rest lukt wel...
             </p>
             <a href="">With us to thailand >></a>
           </div>
@@ -115,11 +119,10 @@
             <a href="">With us to thailand >></a>
           </div>
           <div class="col">
-            <img src="./images/mountains-6544522_640.jpg" alt="" />
+            <img src="./images/travel-6326482_640.jpg" alt="" />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ad
-              non a et, modi ullam architecto veritatis quisquam nihil iusto
-              culpa labore autem suscipit ipsum id qui laboriosam quas ipsam!
+              Last year Abstract dunes ... #abstract #desert #duin #duinen
+              #dunes #jokerreizen #loveoman
             </p>
             <a href="">With us to thailand >></a>
           </div>
@@ -140,32 +143,26 @@
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ad
-              non a et, modi ullam architecto veritatis quisquam nihil iusto
-              culpa labore autem suscipit ipsum id qui laboriosam quas ipsam!
+              Vorig jaar Weet jij wat er hot is in IJsland? Hotsprings
+              natuurlijk! 🤭 Benieuwd in welke hotsprings...
             </p>
             <a href="">With us to thailand >></a>
           </div>
           <div class="col">
-            <img
-              src="./images/valeria-andersson-0IGhARplNzY-unsplash.jpg"
-              alt=""
-            />
+            <img src="./images/travel-2076835_640.jpg" alt="" />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ad
-              non a et, modi ullam architecto veritatis quisquam nihil iusto
-              culpa labore autem suscipit ipsum id qui laboriosam quas ipsam!
+              Last year Same picture, 3 years later. #Jordan #Jokerreizen
+              #Karavaanvzw
             </p>
-            <a href="">With us to thailand >></a>
+            <a href=""> Travel to Jordan >></a>
           </div>
           <div class="col">
             <img src="./images/ethan-weil-lv4-ajIXA0A-unsplash.jpg" alt="" />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ad
-              non a et, modi ullam architecto veritatis quisquam nihil iusto
-              culpa labore autem suscipit ipsum id qui laboriosam quas ipsam!
+              Last year In the desert I can remember your name ... #desert
+              #jokerreizen #loveoman
             </p>
-            <a href="">With us to thailand >></a>
+            <a href="">Discover Morroco >></a>
           </div>
         </div>
       </div>
@@ -174,193 +171,91 @@
     <!-----   booking  ----->
 
     <section class="booking_a">
+      <div class="container_a">
+        <div class="main_book_a">
+          <div class="title_a"><h2>book Now</h2></div>
 
-    <div class="container_a">
+          <div class="content_a">
+            <form>
+              <div class="user-details_a">
+                <div class="input-box_a">
+                  <label class="details_a" for="firstname">First Name</label>
+                  <input type="text" id="firstname" required />
+                </div>
 
-    
+                <div class="input-box_a">
+                  <label class="details_a" for="lastname">Last Name</label>
+                  <input type="text" id="lastname" required />
+                </div>
 
-      <div class="main_book_a">
-        <div class="title_a"><h2>book Now</h2></div>
-  
-  
-        <div class="content_a">
-  
-          <form>
-            <div class="user-details_a">
-    
-              <div class="input-box_a">
-                <label class="details_a" for="firstname">First Name</label>
-                <input type="text" id="firstname" required>
+                <div class="input-box_a">
+                  <label class="details_a" for="email">Email</label>
+                  <input type="text" id="email" required />
+                </div>
+
+                <div class="input-box_a">
+                  <label class="details_a" for="phonenumber"
+                    >Phone Number</label
+                  >
+                  <input type="text" id="phonenumber" required />
+                </div>
+
+                <div class="input-box_a">
+                  <label class="details_a" for="flyingfrom">Flying from</label>
+                  <input type="text" id="flyingfrom" required />
+                </div>
+
+                <div class="input-box_a">
+                  <label class="details_a" for="flyingto">Flying to</label>
+                  <input type="text" id="flyingto" required />
+                </div>
+
+                <div class="input-box_a">
+                  <label class="details_a" for="departure">Departure</label>
+                  <input type="date" id="departure" required />
+                </div>
+
+                <div class="input-box_a">
+                  <label class="details_a" for="return">Return </label>
+                  <input type="date" id="return" required />
+                </div>
               </div>
-    
-              <div class="input-box_a">
-                <label class="details_a" for="lastname">Last Name</label>
-                <input type="text" id="lastname" required>
+
+              <div class="flying_type_a">
+                <span class="flying-title_a">Flying type :</span>
+
+                <label for="one">One Way</label>
+                <input type="radio" name="flying" id="one" />
+
+                <label for="round">Round Trip</label>
+                <input type="radio" name="flying" id="round" />
+
+                <label for="multi">Multi cities</label>
+                <input type="radio" name="flying" id="multi" />
               </div>
-    
-              <div class="input-box_a">
-                <label class="details_a" for="email">Email</label>
-                <input type="text" id="email" required>
+
+              <div class="button_a">
+                <input type="submit" value="Booking" />
               </div>
-    
-              <div class="input-box_a">
-                <label class="details_a" for="phonenumber">Phone Number</label>
-                <input type="text" id="phonenumber" required>
-              </div>
-    
-              <div class="input-box_a">
-                <label class="details_a" for="flyingfrom" >Flying from</label>
-                <input type="text" id="flyingfrom" required>
-              </div>
-    
-              <div class="input-box_a">
-                <label class="details_a" for="flyingto">Flying to</label>
-                <input type="text"  id="flyingto" required>
-              </div>
-    
-    
-              <div class="input-box_a">
-                <label class="details_a" for="departure">Departure</label>
-                <input type="date" id="departure" required>
-              </div>
-    
-              <div class="input-box_a">
-                <label class="details_a" for="return">Return </label>
-                <input type="date" id="return" required>
-              </div>
-    
-    
-            </div>
-    
-            
-            <div class="flying_type_a">
-              <span class="flying-title_a">Flying type :</span>
-    
-              <label for="one">One Way</label>
-              <input type="radio" name="flying"  id="one">
-    
-              <label for="round">Round Trip</label>
-              <input type="radio" name="flying" id="round">
-              
-              <label for="multi">Multi cities</label>
-              <input type="radio" name="flying" id="multi">
-              </div>
-              
-    
-    
-    
-    
-            <div class="button_a">
-              <input type="submit" value="Booking">
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
-  
-    
-  
-  
-      </div>
-
     </section>
-  
-  
-
-
-
+    <section class="adress">
+      <h1>How to get to our Office?</h1>
+      <hr>
+      <div class="map-container">
+        <div class="map-col">
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6387.944223929803!2d4.396796566662589!3d51.22436899083761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f7c8f74a11cd%3A0x56998eec0e4a84b7!2sBeCode%20Antwerpen!5e0!3m2!1sen!2sbe!4v1641236651359!5m2!1sen!2sbe"
+          ></iframe>
+        </div>
+        <div class="map-col">
+          <img src="./images/logo.png" alt="" />
+        </div>
+      </div>
+    </section>
   </body>
-		<h1>...Share your experience...</h1>
-		<div class="containerRating">
-			<div class="gallery-containerRating">
-				<!------width-1 height-2 after gallery container------>
-				<div class="gallery-itemRating">
-					<div class="imageRating">
-						<img src="img/arc-de-triomphe-g03052e901_1920.jpg" alt="TRAVEL" />
-					</div>
-					<div class="textRating">PARIS</div>
-				</div>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-					eaque quo veritatis numquam accusantium tempora itaque architecto
-					molestiae fugiat ab pariatur aliquid natus repellendus alias optio,
-					iusto esse reprehenderit provident?
-				</p>
-				<div class="starsRating">
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star-o"></i>
-				</div>
-			</div>
-
-			<div class="gallery-containerRating">
-				<!------width-2 height-3 after gallery container------>
-				<div class="gallery-itemRating">
-					<div class="imageRating">
-						<img src="img/chichen-itza-g9a16c2fe5_1920.jpg" alt="TRAVEL" />
-					</div>
-					<div class="textRating">MEXICO</div>
-				</div>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia debitis
-					dolore, quod odit corrupti delectus id, dolor, ab exercitationem
-					facere necessitatibus natus aperiam harum nobis eligendi recusandae
-					quos odio sapiente?
-				</p>
-				<div class="starsRating">
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star-half-o"></i>
-				</div>
-			</div>
-
-			<div class="gallery-containerRating">
-				<!------width-4 height-2 after gallery container------>
-				<div class="gallery-itemRating">
-					<div class="imageRating">
-						<img src="img/water-geb48fc427_1920.jpg" alt="TRAVEL" />
-					</div>
-					<div class="textRating">GERMANY</div>
-				</div>
-				<p>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-					maiores dolore amet, facilis officiis fugiat voluptates libero odit
-					tempora eveniet quas, nesciunt harum? Explicabo consequatur laboriosam
-					nam est quaerat repellendus?
-				</p>
-				<div class="starsRating">
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star-half-o"></i>
-					<i class="fa fa-star-o"></i>
-				</div>
-			</div>
-
-			<div class="gallery-containerRating">
-				<!------width-4 height-4 after gallery container------>
-				<div class="gallery-itemRating">
-					<div class="imageRating">
-						<img src="img/temple-g03fca60b5_1920.jpg" alt="TRAVEL" />
-					</div>
-					<div class="textRating">THAILAND</div>
-				</div>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro
-					assumenda, voluptatum a maiores delectus libero? Totam dolores animi
-					nisi neque ratione officia similique, error tempora incidunt
-					distinctio, cupiditate cum.
-				</p>
-				<div class="starsRating">
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star"></i>
-					<i class="fa fa-star-half-o"></i>
-					<i class="fa fa-star-o"></i>
-				</div>
-			</div>
-		</div>
 </html>
