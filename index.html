@@ -20,13 +20,14 @@
             <img src="./images/logo.png" width="70px" alt="" />
           </div>
           <nav class="nav">
-            <ul>
+            <ul id="menu_list">
               <li><a href="">Home</a></li>
               <li><a href="#travel_type">Travel type</a></li>
               <li><a href="#stories_">stories</a></li>
               <li><a href="#booknow">booking</a></li>
               <li><a href="#promotion">promo</a></li>
             </ul>
+            <img src="icons/square.png" class="menu_logo" onclick="toggle_menu()">
           </nav>
         </div>
         <div class="nav-background">
@@ -375,5 +376,37 @@
         </div>
       </div>
     </footer>
+
+
+
+
+<!----javascript code--->
+
+<script>
+
+var menulist=document.getElementById("menu_list");
+menulist.style.maxHeight="0px";
+
+function toggle_menu(){
+
+        if(menulist.style.maxHeight=="0px")
+        
+        {
+
+          menulist.style.maxHeight="340px"
+
+        }else
+
+        {
+          menulist.style.maxHeight="0px";
+        }
+
+
+}
+
+
+</script>
+
+
   </body>
 </html>

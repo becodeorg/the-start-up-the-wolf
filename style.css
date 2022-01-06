@@ -82,6 +82,14 @@ p{
   color: white;
   
 }
+
+.menu_logo{
+  width: 30px;
+  cursor: pointer;
+  display: none;
+  
+}
+
 .nav ul li a:hover {
   color: rgb(47, 189, 12);
 }
@@ -292,26 +300,6 @@ form .button_a input {
   letter-spacing: 1px;
   cursor: pointer;
 }
-@media (max-width: 600px) {
-  .container_a .main_book_a {
-    max-width: 100vw;
-  }
-  form .user-details_a .input-box_a {
-    margin-bottom: 15px;
-    width: 100%;
-  }
-  .content_a form .user-details_a {
-    max-height: 300px;
-    overflow-y: auto;
-  }
-  .main_book_a {
-    box-shadow: none;
-    margin: auto;
-  }
-}
-
-
-
 
 
 .cards_a{
@@ -321,6 +309,7 @@ form .button_a input {
   padding-right: 30px;
   margin-top: 50px;
  }
+
 
  .row{
    display:flex;
@@ -458,3 +447,61 @@ span {
   font-size: 30px;
 }
 /* End footer*/
+
+
+
+
+
+
+/* respon */
+@media only screen and  (max-width: 600px) {
+  .container_a .main_book_a {
+    max-width: 100vw;
+  }
+  form .user-details_a .input-box_a {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .content_a form .user-details_a {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  .main_book_a {
+    box-shadow: none;
+    margin: auto;
+  }
+
+
+  .menu_logo{
+    display:inline-block;
+  }
+
+  .nav ul li {
+    display:block;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    }
+
+  .nav ul{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    text-align: center;
+    background:linear-gradient(lightgray,white);  
+    z-index: 2;
+  }
+  .nav ul li a{
+    color:lightskyblue;
+  }
+
+  .nav ul li a:hover{
+    color:mediumblue;
+  }
+
+  #menu_list{
+    overflow: hidden;
+    transition: 0.7s;
+  }
+
+}
