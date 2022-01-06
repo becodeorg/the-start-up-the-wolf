@@ -10,6 +10,9 @@
 p{
   color:gray;
 }
+.aaa{
+  color:black;
+}
 .container {
   flex-wrap: wrap;
   width: 100%;
@@ -59,7 +62,7 @@ p{
 .navbar {
   display: flex;
   align-items: center;
-  padding: 10px 30px;
+  padding: 25px 30px;
 }
 .nav {
   flex: 1;
@@ -72,12 +75,12 @@ p{
 }
 .nav ul li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .nav ul li a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
+  
 }
 .nav ul li a:hover {
   color: rgb(47, 189, 12);
