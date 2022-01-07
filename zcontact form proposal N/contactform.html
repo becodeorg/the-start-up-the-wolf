@@ -1,72 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="contactform.css" />
-		<title>contact form</title>
-	</head>
-	<body>
-		<section class="form">
-			<div class="container">
-				<form action="" method="POST" class="form">
-					<div class="form-group">
-						<label for="name" class="form-label">Your Full Name </label>
-						<input
-							type="text"
-							class="form-control"
-							id="name"
-							name="name"
-							placeholder=" e.g. William Smiths"
-							tabindex="1"
-							required
-						/>
-					</div>
-					<div class="form-group">
-						<label for="email" class="form-label">Your email address </label>
-						<input
-							type="email"
-							class="form-control"
-							id="email"
-							name="email"
-							placeholder=" e.g. william.smith@yahoo.com"
-							tabindex="2"
-							required
-						/>
-					</div>
-					<div class="form-group">
-						<label for="question subject" class="form-label">Subject</label>
-						<input
-							type="text"
-							class="form-control"
-							id="question subject"
-							name="question subject"
-							placeholder=" e.g. travel options"
-							tabindex="3"
-							required
-						/>
-					</div>
-					<div class="form-group">
-						<label for="explanation question" class="form-label"
-							>Explanation question</label
-						>
-						<textarea
-							class="form-control"
-							rows="10"
-							cols="10"
-							id="explanation question"
-							name="explanation question"
-							placeholder="e.g. enter question"
-							tabindex="4"
-						>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="contactform.css" />
+	<title>contact form</title>
+</head>
+
+<body>
+	<section class="form">
+		<div class="container">
+			<form action="" method="POST" class="form">
+				<div class="form-group">
+					<label for="name" class="form-label">Your Full Name </label>
+					<input type="text" class="form-control" id="name" name="name" placeholder=" e.g. William Smiths"
+						tabindex="1" required />
+				</div>
+				<div class="form-group">
+					<label for="email" class="form-label">Your email address </label>
+					<input type="email" class="form-control" id="email" name="email"
+						placeholder=" e.g. william.smith@yahoo.com" tabindex="2" required />
+				</div>
+				<div class="form-group">
+					<label for="question subject" class="form-label">Subject</label>
+					<input type="text" class="form-control" id="question subject" name="question subject"
+						placeholder=" e.g. travel options" tabindex="3" required />
+				</div>
+				<div class="form-group">
+					<label for="explanation question" class="form-label">Explanation question</label>
+					<textarea class="form-control" rows="10" cols="10" id="explanation question"
+						name="explanation question" placeholder="e.g. enter question" tabindex="4">
 						</textarea>
-					</div>
-					<div>
-						<button type="submit" class="btn">Submit question</button>
-					</div>
-				</form>
-			</div>
-		</section>
-	</body>
+				</div>
+				<div>
+					<button type="submit" class="btn">Submit question</button>
+				</div>
+			</form>
+		</div>
+	</section>
+</body>
+
 </html>
