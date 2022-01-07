@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
-  
+  font-family: "Poppins", sans-serif;
 }
-p{
-  color:gray;
+p {
+  color: gray;
 }
-.aaa{
-  color:black;
+.aaa {
+  color: black;
 }
 .container {
   flex-wrap: wrap;
@@ -25,7 +24,6 @@ p{
   animation-name: animate;
   animation-duration: 35s;
   animation-iteration-count: infinite;
-  
 }
 @keyframes animate {
   0% {
@@ -80,25 +78,30 @@ p{
 .nav ul li a {
   text-decoration: none;
   color: white;
+}
+
+.menu_logo{
+  width: 30px;
+  cursor: pointer;
+  display: none;
   
 }
+
 .nav ul li a:hover {
   color: rgb(47, 189, 12);
 }
 .Backg-desc {
-  
   width: 40%;
   padding: 30px;
   margin-left: 0px;
   width: 30%;
-  padding: 20px;
   background-color: rgb(157, 158, 156);
   opacity: 0.6;
-  margin-top:60px;
+  margin-top: 60px;
   border-radius: 0 40px 40px 0;
 }
-.nav_text{
-color:black;
+.nav_text {
+  color: black;
 }
 
 .Backg-desc h1 {
@@ -120,6 +123,76 @@ color:black;
   background-color: black;
   color: rgb(47, 189, 12);
 }
+@media (max-width: 540px) {
+  .Backg-desc {
+    display: none;
+  }
+  .type-travel {
+    padding: 5px;
+    margin: 5px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .travelers .container1 .row .col a {
+    padding: 4px 15px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .row .col {
+    margin-bottom: 10px;
+  }
+  .map-container {
+    flex-direction: column;
+  }
+  #AdressMap {
+    width: 315px;
+  }
+  .contact-form {
+    display: none;
+  }
+  #newsLetter {
+    display: none;
+  }
+  #fotLogo {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .Backg-desc {
+    display: none;
+  }
+  .type-travel {
+    padding: 5px;
+    margin: 10px;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .container1 {
+    flex-wrap: wrap;
+    margin: 10px 15px;
+    max-width: 100%;
+  }
+  .travelers .container1 .row .col a {
+    padding: 3px 5px;
+  }
+  .map-container {
+    flex-direction: column;
+  }
+  .contact-col {
+    width: 85%;
+  }
+  .form-container input,
+  textarea {
+    width: 95%;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  #newsLetter {
+    display: none;
+  }
+}
+/* Header Description*/
 .type-travel {
   display: flex;
   align-items: center;
@@ -139,6 +212,7 @@ color:black;
 .type-travel-col a:hover {
   color: rgb(47, 189, 12);
 }
+/* Travelers*/
 .travelers {
   text-align: center;
 }
@@ -158,8 +232,6 @@ color:black;
   flex-basis: 20%;
   min-width: 200px;
   margin: 0 20px;
-  
-  
   padding-bottom: 10px;
 }
 .col img {
@@ -169,29 +241,22 @@ color:black;
   padding: 15px;
   text-align: left;
 }
-.col a{
-  
+.col a {
   text-decoration: none;
   padding: 6px 45px;
-  background-color:  rgb(22, 189, 245);
+  background-color: rgb(22, 189, 245);
   color: black;
   font-weight: bold;
-  border-radius: 0 0 20px 0 ;
+  border-radius: 0 0 20px 0;
 }
 .col a:hover {
-  background-color:gray;
-  color:whitesmoke;
+  background-color: gray;
+  color: whitesmoke;
 }
 
-
-.container1 .row .col img{
- border-radius: 50px 0 0 0 ;
+.container1 .row .col img {
+  border-radius: 50px 0 0 0;
 }
-
-
-
-
-
 
 /*  booking  */
 
@@ -200,7 +265,6 @@ color:black;
   background-position: bottom;
   background-size: cover;
   padding: 40px 0;
-  
 }
 
 .main_book_a {
@@ -210,7 +274,6 @@ color:black;
   padding: 40px 40px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  
 }
 
 .title_a {
@@ -219,7 +282,6 @@ color:black;
   font-size: 25px;
   font-weight: 500;
   position: relative;
-  
 }
 
 .container_a .title_a::before {
@@ -292,6 +354,7 @@ form .button_a input {
   letter-spacing: 1px;
   cursor: pointer;
 }
+<<<<<<< HEAD
 @media (max-width: 600px) {
   .container_a .main_book_a {
     max-width: 100vw;
@@ -310,16 +373,29 @@ form .button_a input {
   }
 }
 
+<<<<<<< HEAD
 
 
 /*cards */
+=======
+.cards_a {
+  max-width: 1040;
+=======
+
+
+>>>>>>> f234153fdd5d2f175ddbc76341b4577b971966f3
 .cards_a{
   max-width:1040;
+>>>>>>> ab526f25d1e3068e453a4351061dba72ea9592fc
   margin: auto 100px;
   padding-left: 30px;
   padding-right: 30px;
   margin-top: 50px;
+<<<<<<< HEAD
+}
+=======
  }
+
 
  .row{
    display:flex;
@@ -354,11 +430,38 @@ form .button_a input {
      text-align: center;
      margin-bottom: 40px;
    }
+>>>>>>> ab526f25d1e3068e453a4351061dba72ea9592fc
 
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.col_4_a {
+  flex-basis: 25%;
+  max-width: 200px;
+  width: 100%;
+  text-align: center;
+}
 
+.col_4_a img {
+  margin-bottom: 20px;
+  width: 100%;
+  transition: 0.5s;
+  filter: grayscale(100%);
+}
 
+.col_4_a img:hover {
+  transform: translateY(-7px);
+  filter: grayscale(0%);
+}
+.discover_a {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
+/* Map and Contact*/
 
 .adress {
   background: linear-gradient(
@@ -379,12 +482,9 @@ form .button_a input {
   align-items: center;
   padding-top: 50px;
 }
-.map-col img {
-  width: 350px;
-}
 .map {
-  width: 600px;
-  height: 400px;
+  width: 700px;
+  height: 490px;
 }
 .contact-col {
   margin: 10px;
@@ -403,8 +503,9 @@ form .button_a input {
 .form-container label {
   margin: 10px;
 }
-.form-text-area {
+.form-text-area textarea {
   margin: 10px;
+  border-radius: 4px;
 }
 
 /* End Map */
@@ -420,7 +521,7 @@ footer {
   justify-content: space-between;
 }
 .ft-col {
-  flex-basis: 30%;
+  flex-basis: 25%;
   flex-wrap: wrap;
 }
 .ft-logo {
@@ -457,3 +558,74 @@ span {
   font-size: 30px;
 }
 /* End footer*/
+
+
+
+
+
+
+/* respon */
+@media only screen and  (max-width: 600px) {
+  .container_a .main_book_a {
+    max-width: 100vw;
+  }
+  form .user-details_a .input-box_a {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .content_a form .user-details_a {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  .main_book_a {
+    box-shadow: none;
+    margin: auto;
+  }
+
+
+  .menu_logo{
+    display:inline-block;
+  }
+
+  .nav ul li {
+    display:block;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    }
+
+  .nav ul{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    text-align: center;
+    background:linear-gradient(lightgray,white);  
+    z-index: 2;
+  }
+  .nav ul li a{
+    color:lightskyblue;
+  }
+
+  .nav ul li a:hover{
+    color:mediumblue;
+  }
+
+  #menu_list{
+    overflow: hidden;
+    transition: 0.7s;
+  }
+
+
+}
+
+
+/* tablet*/
+
+@media only screen and  (max-width: 1024px){
+
+  .cards_a{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+}
