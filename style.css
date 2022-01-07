@@ -504,4 +504,17 @@ span {
     transition: 0.7s;
   }
 
+
+}
+
+
+/* tablet*/
+
+@media only screen and  (max-width: 1024px){
+
+  .cards_a{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
 }
